@@ -74,7 +74,7 @@ continue;
 // nested loop- yara tariq bashmail-2110215
 for (i = 0; i < data2.length; i++) {
 for (j = 0; j < data2[0].length; j++) {
-for(k=0; k< data2[0][0].length; k++){
+for(k = 0; k < data2[0][0].length; k++){
 out.write(data2[i][j][k] + "\t");
     }
 }
